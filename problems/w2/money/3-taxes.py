@@ -14,6 +14,7 @@ def taxes(bill, tax_rate):
 
     # return sub * tax_rate
 
-    sub = sum([i["quantity"] * i["item_cost"] for i in bill if i["taxable"] == True])
+    # sub = sum([i["quantity"] * i["item_cost"] for i in bill if i["taxable"] == True])
+    sub = sum([i["quantity"] * i["item_cost"] for i in bill if i["taxable"]])
 
     return sub * tax_rate

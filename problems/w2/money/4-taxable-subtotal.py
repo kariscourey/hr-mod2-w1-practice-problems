@@ -13,4 +13,5 @@ def taxable_sub_total(bill):
 
     # return sub
 
-    return sum([i["quantity"] * i["item_cost"] for i in bill if i["taxable"] == True])
+    # return sum([i["quantity"] * i["item_cost"] for i in bill if i["taxable"] == True])
+    return sum([i["quantity"] * i["item_cost"] for i in bill if i["taxable"]])
