@@ -24,10 +24,41 @@
 function select(arr, obj) {
   // your code here
 
-  let output = {};
+  // let output = {};
+  const output = {};
 
   for (let i in obj) {
       if (arr.includes(i)) {
+          output[i] = obj[i];
+      }
+  }
+  return output;
+}
+
+// function countWords(str) {
+//   const newObj = {};
+// if (str.length === 0) {
+//   return newObj;
+// } else {
+//   str.split(' ').forEach(function(word){
+//     if (newObj[word] === undefined) {
+//       newObj[word] = 1;
+//     } else {
+//       newObj[word] += 1;
+//     }
+//   });
+// return newObj;
+// }
+// }
+
+function select(arr, obj) {
+  // your code here
+
+  // let output = {};
+  const output = {};
+
+  for (let i of array) {
+      if (i in obj) {
           output[i] = obj[i];
       }
   }

@@ -19,7 +19,7 @@
 function countWords(str) {
     // your code here
     const arr = str.split(" ");
-    let output = {}
+    const output = {}
 
     for (let i of arr) {
         if (i) {
@@ -33,3 +33,5 @@ function countWords(str) {
     }
     return output;
   }
+
+  console.log(countWords("ask a bunch get a bunch"));
