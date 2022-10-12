@@ -126,5 +126,6 @@ createClueButton.addEventListener('click', async () => {
 
     const newClueTag = document.getElementById('new-clue');
     newClueTag.innerHTML = html;
+
   }
 });
