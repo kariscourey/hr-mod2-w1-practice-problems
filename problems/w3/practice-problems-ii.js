@@ -58,8 +58,11 @@ function calculateLetterGrade(scores) {
 // console.log(calculateLetterGrade(scores))
 
 function findSecondLargest(values) {
+    // let max = -Infinity;
+    // let second = -Infinity;
+
     let max = values[0];
-    let second = max;
+    let second = -Infinity;
 
     for (let i of values) {
         if (i > max) {
@@ -73,7 +76,7 @@ function findSecondLargest(values) {
     return second;
 }
 
-values = [2,7,4,4,6]
+values = [7,4,4,6]
 console.log(findSecondLargest(values))
 
 function sumUpTo(value) {
