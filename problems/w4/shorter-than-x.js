@@ -1,4 +1,4 @@
-As we saw yesterday, JavaScript does not have list comprehensions like Python, but it does have an Array method called filter, which works like the if in the Python list comprehension. Here we'll duplicate the filter examples from the previous question, but with the JavaScript filter method.
+// As we saw yesterday, JavaScript does not have list comprehensions like Python, but it does have an Array method called filter, which works like the if in the Python list comprehension. Here we'll duplicate the filter examples from the previous question, but with the JavaScript filter method.
 
 // Here's an example that selects all of the numbers from a list that are greater than 4.
 
